@@ -7,7 +7,7 @@ import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
-
+//
 //仓储引导类
 @ComponentScan(basePackages = "com.imooc.diveinspringboot.repository")
 public class RepositoryBootstrap {

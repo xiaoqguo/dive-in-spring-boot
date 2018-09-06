@@ -8,6 +8,6 @@ import java.lang.annotation.*;
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
 @Repository
-public @interface FirstLevelRepository {
+public @interface FirstLevelRepository1 {
     String value() default "";
 }

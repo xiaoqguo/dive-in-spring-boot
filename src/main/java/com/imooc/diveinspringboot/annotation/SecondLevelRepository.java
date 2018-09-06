@@ -5,7 +5,7 @@ import java.lang.annotation.*;
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @Documented
-@FirstLevelRepository
+@FirstLevelRepository1
 public @interface SecondLevelRepository {
     String value() default "";
 }
